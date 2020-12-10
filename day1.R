@@ -1,7 +1,7 @@
 library(tidyverse)
 
 # read in the data
-day1 <- read_lines('day1Data.txt') %>%
+day1 <- read_lines('data/day1Data.txt') %>%
   as.numeric()
 
 # part 1

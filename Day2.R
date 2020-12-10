@@ -2,7 +2,7 @@
 library(tidyverse)
 
 # read in data
-day2 <- tibble(x = read_lines('day2Data.txt'))
+day2 <- tibble(x = read_lines('data/day2Data.txt'))
 
 # clean the data up
 day2Clean <- day2 %>%
